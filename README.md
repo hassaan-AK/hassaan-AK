@@ -1,4 +1,4 @@
-# 💫 About Me
+# ⚡ About Me
 I build backends that don’t just work—they perform. Node.js and TypeScript are my weapons of choice, and I design APIs so smooth they could sell themselves. Scaling systems, optimizing databases, and making real-time apps feel instant? That’s my kind of fun. If it's fast, efficient, and built to handle the heat—I'm behind it.
 
 # 🔥 Weapons of Choice
