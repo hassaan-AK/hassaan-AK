@@ -1,15 +1,79 @@
-# ⚡ About Me
-I build backends that don’t just work—they perform. Node.js and TypeScript are my weapons of choice, and I design APIs so smooth they could sell themselves. Scaling systems, optimizing databases, and making real-time apps feel instant? That’s my kind of fun. If it's fast, efficient, and built to handle the heat—I'm behind it.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Terminal: curl /v1/me returns Hassaan Asif Khan, Backend Engineer" src="assets/hero-light.svg" width="100%">
+</picture>
 
-# 🔥 Weapons of Choice
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![Strapi](https://img.shields.io/badge/strapi-%232E7EEA.svg?style=for-the-badge&logo=strapi&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
+<p align="center">
+  <b>Backend engineer</b> building production Node.js / TypeScript systems from Lahore, Pakistan · open to remote roles<br>
+  <a href="https://www.linkedin.com/in/hassaan-ak/">LinkedIn</a> ·
+  <a href="mailto:hassaanasifkhan@gmail.com">Email</a> ·
+  <a href="https://dopamineclub.pk">dopamineclub.pk</a>
+</p>
 
-:handshake: Connect with me
------------------
-Feel free to connect with me on:
+## `GET` this README
 
-- :briefcase: [LinkedIn](https://www.linkedin.com/in/hassaan-ak/)
-- :octocat:  [GitHub](https://github.com/hassaan-AK)
+Most of my code lives in private client repos, so this profile is a small live API instead.
+Pick a request: it opens a pre-filled issue, a GitHub Action replies with a JSON response in about 30 seconds, and your call shows up in the log below.
 
-Let's build something awesome together! 🚀
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+| Request | Response |
+|---|---|
+| [`GET /whoami`](https://github.com/hassaan-AK/hassaan-AK/issues/new?title=api%3A%20GET%20%2Fwhoami&body=Just%20press%20%2A%2ACreate%2A%2A%20%28or%20%2A%2ASubmit%20new%20issue%2A%2A%29.%20A%20GitHub%20Action%20answers%20this%20request%20in%20about%2030%20seconds%2C%20then%20logs%20it%20on%20my%20profile.) | who I am, in one JSON object |
+| [`GET /stack`](https://github.com/hassaan-AK/hassaan-AK/issues/new?title=api%3A%20GET%20%2Fstack&body=Just%20press%20%2A%2ACreate%2A%2A%20%28or%20%2A%2ASubmit%20new%20issue%2A%2A%29.%20A%20GitHub%20Action%20answers%20this%20request%20in%20about%2030%20seconds%2C%20then%20logs%20it%20on%20my%20profile.) | what I run in production |
+| [`GET /projects`](https://github.com/hassaan-AK/hassaan-AK/issues/new?title=api%3A%20GET%20%2Fprojects&body=Just%20press%20%2A%2ACreate%2A%2A%20%28or%20%2A%2ASubmit%20new%20issue%2A%2A%29.%20A%20GitHub%20Action%20answers%20this%20request%20in%20about%2030%20seconds%2C%20then%20logs%20it%20on%20my%20profile.) | what I built and what I owned |
+| [`GET /uptime`](https://github.com/hassaan-AK/hassaan-AK/issues/new?title=api%3A%20GET%20%2Fuptime&body=Just%20press%20%2A%2ACreate%2A%2A%20%28or%20%2A%2ASubmit%20new%20issue%2A%2A%29.%20A%20GitHub%20Action%20answers%20this%20request%20in%20about%2030%20seconds%2C%20then%20logs%20it%20on%20my%20profile.) | how long I've been shipping |
+| [`POST /hire`](https://github.com/hassaan-AK/hassaan-AK/issues/new?title=api%3A%20POST%20%2Fhire&body=Just%20press%20%2A%2ACreate%2A%2A%20%28or%20%2A%2ASubmit%20new%20issue%2A%2A%29.%20A%20GitHub%20Action%20answers%20this%20request%20in%20about%2030%20seconds%2C%20then%20logs%20it%20on%20my%20profile.) | opens a thread I get notified about |
+| [`BREW /coffee`](https://github.com/hassaan-AK/hassaan-AK/issues/new?title=api%3A%20BREW%20%2Fcoffee&body=Just%20press%20%2A%2ACreate%2A%2A%20%28or%20%2A%2ASubmit%20new%20issue%2A%2A%29.%20A%20GitHub%20Action%20answers%20this%20request%20in%20about%2030%20seconds%2C%20then%20logs%20it%20on%20my%20profile.) | try it |
+
+**Request log**
+<!--REQUEST_LOG_START-->
+| Time (UTC) | Caller | Request | Status |
+|---|---|---|---|
+| — | — | waiting for the first request | — |
+<!--REQUEST_LOG_END-->
+
+## Production changelog
+
+Private repos, public receipts.
+
+```diff
+@@ 2026 @@
++ Oct  Hardened a video-messaging backend: OTP bypass gone, secrets in AWS SSM, signed video URLs
++ Aug  SealPact: closed 15+ security audit findings, removed Firebase, pinned Stripe API versions
++ Jul  OpenTelemetry traces, metrics and logs across NestJS services
++ Mar  Took sole ownership of SealPact, a legal e-signature SaaS used by US engineering firms
++ Mar  Real-time chat package v1.9: Socket.IO + Redis presence, coalesced push notifications
++ Feb  URY super-app: time-decay feed ranking, OpenSearch marketplace search, BullMQ workers
+@@ 2025 @@
++ Dec  Started Dopamine Club, a live PC-hardware marketplace (NestJS, Next.js, Redis)
++ Jul  National Ramp: recovery workflows and Epicor ERP integration (540+ commits since 2024)
+@@ 2024 @@
++ Jun  AI Transcriptor: OpenAI Whisper pipeline for searchable meeting transcripts
++ Jan  MLT: multilingual AI messaging platform with offline Arabic-English translation
+```
+
+## Telemetry
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/telemetry-dark.svg">
+  <img alt="Contribution dashboard for the last 12 months" src="assets/telemetry-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
+  <img alt="Snake eating my contribution graph" src="assets/snake-light.svg" width="100%">
+</picture>
+
+## Stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,nodejs,nestjs,mongodb,postgres,redis,aws,docker,githubactions,python,react,nextjs&theme=dark">
+  <img alt="TypeScript, Node.js, NestJS, MongoDB, PostgreSQL, Redis, AWS, Docker, GitHub Actions, Python, React, Next.js" src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,mongodb,postgres,redis,aws,docker,githubactions,python,react,nextjs&theme=light">
+</picture>
+
+## Right now
+
+- Building **Dopamine Club**, a community marketplace for verified PC hardware
+- Learning AI engineering in public with **RigBuilder AI**: Python, RAG and agents
+- Looking for a remote backend role with a team that cares about reliability
+
+<sub>The header, the dashboard and the README API are generated by the scripts in this repo. Fork it and make it yours.</sub>

@@ -1,0 +1,39 @@
+name: README API
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: readme-write
+  cancel-in-progress: false
+
+jobs:
+  respond:
+    if: startsWith(github.event.issue.title, 'api:')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      # Issue fields go in through env vars, never interpolated into the shell (avoids script injection).
+      - name: Answer the request
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_CREATED_AT: ${{ github.event.issue.created_at }}
+        run: node scripts/api.mjs
+      - name: Commit request log
+        run: |
+          git config user.name "readme-api[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore(api): log request #${{ github.event.issue.number }}"
+          git pull --rebase --autostash && git push
